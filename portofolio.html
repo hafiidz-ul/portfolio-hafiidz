@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>portfolio | HAFIIDZ</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"/>
+        <link 
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      rel="stylesheet" 
+      
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+     />
+   
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="home">
+    <!-- awal navbar -->
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-dark bg-info border-bottom border-body shadow "
+      data-bs-theme="primary"
+    >
+      <div class="container">
+        <h1 class="ui" ><b>portfolio | Hafiidz</b></h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav text-right">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">proyek</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- akhir navbar -->
+
+
+    <!-- awal jumbotron -->
+    <section class="jumbotron text-center " id="jumbotron" style="background-color: #63ddff;">
+    <img src="IMAGE/profil1.jpg" alt="Hafiidz Dhiyaaul Haq" width="200px" class="rounded-circle img-thumbnail"> </img> 
+      <h2 class="animate__animated.animate__bounce">HAFIIDZ DHIYAAUL HAQ</h2>
+      <p class="lead">Madang -> Ngegame -> Turu</p>
+    
+  </section>
+    <!-- akhir jumbotron -->
+
+    <!-- about -->
+    <section id="about">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <h2 class="text-center"><b>about</b></h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-6">
+            <p>saya adalah salah satu siswa smada yang berminat di bidang informatika. tujuan 
+              saya membuat ini adalah sebuah percobaan untuk pembuatan web yang lebih serius nantinya</p>
+          </div>
+          <div class="col-6">
+            <img src="IMAGE/fotoganteng.jpg" alt="" width="400px" height="500px" class="rounded" style="box-shadow: 0px 7px 10px rgba(0,0,0,5);" >
+          </div>
+      </div>
+
+    </section>
+    <!-- akhir about -->
+    <!-- projek -->
+    <section id="project" style="background-color: #63ddff;">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2 style="font-style: lato;"><b>MY PROJECT</b></h2>
+            <hr>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="IMAGE/fotbar.jpg" class="card-img-top" alt="Foto Bersama">
+              <div class="info">
+                <h1>Foto Bareng</h1>
+                <p>Kenangan di masa lalu semasa di SMP</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="IMAGE/profil1.jpg" class="card-img-top" alt="Peran Saka">
+              <div class="info">
+                <h1>PERAN SAKA 2022</h1>
+                <p>Kenangan di masa lalu semasa di SMP</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="IMAGE/with ai.jpg" class="card-img-top" alt="KKR Spensix">
+              <div class="info">
+                <h1>PETUGAS KKR SPENSIX</h1>
+                <p>Kenangan di masa lalu semasa di SMP</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="IMAGE/fotoalbum.jpg" class="card-img-top" alt="KKR Spensix">
+              <div class="info">
+                <h1>FOTO ALBUM</h1>
+                <p>Kenangan di masa lalu semasa di SMP</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir projek -->
+<!--awal js-->
+<script lang="javasript">
+  function laporan(){
+    alert("laporan terkirim,akan kami perbaiki secepatnya");
+  }
+</script>
+<!--akhir js-->
+    <!-- contact me -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text center mb-3">
+          <div class="col text-center">
+            <h2>Contact me</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">nama lengkap</label>
+                <input type="type" class="form-control" id="exampleInputEmail1" aria-describedby="name">
+               
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email">
+              </div>
+              <div class="mb-3">
+                <label for="pesan dan kesan" class="form-label">pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+             
+              <button type="submit" class="btn btn-primary" onclick="laporan()">kirim</button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir contact me -->
+
+    <!-- footer -->
+    <footer class="text-center p-0" style="background-color: #63ddff;">
+    <p>diciptakan dengan sepenuh hati oleh <a href="http://www.instagram.com/haaqqqqq/" class="  fw-bold">  Hafiidz Dhiyaaul Haq </a> </p>
+
+  </footer>
+    <!-- akhir footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
